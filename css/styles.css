@@ -9,12 +9,13 @@ h2{
 	margin: 0;
 	margin-bottom: 10px;
 }
-
-.navbar-header{
-	padding-bottom: 17px;
+h3{
 
 }
 
+.navbar-header{
+	padding-bottom: 17px;
+}
 
 #header-nav {
 	background-color: #f6b319;
@@ -33,6 +34,10 @@ h2{
 	color: black;
 }
 
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+
 .menu-item {
 	text-decoration: none;
 	color: black;
@@ -41,15 +46,22 @@ h2{
 	padding: 10px 0px 10px 0px;
 	margin: 0;
 }
+
 ul{
 	background-color: white;
 }
-
 
 hr{
 	background-color: black;
 	border-top: 2px solid black;
 	margin: 0;
+}
+/*boxes for dishes*/
+.menu-dish{
 
-
+}
+.menu-text{
+	background-color: #f6b319;
+	padding: 5px 10px 10px 10px;
+	margin: 5px;
 }
